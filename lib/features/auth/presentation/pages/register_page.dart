@@ -24,6 +24,10 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
   final _confirmPasswordController = TextEditingController();
   String _role = AppStrings.rolePassenger;
 
+  // Acepta cualquier dominio de correo con formato válido (algo@algo.algo)
+  static final RegExp _emailRegex =
+      RegExp(r'^[\w.+-]+@[\w-]+\.[a-zA-Z]{2,}$');
+
   @override
   void dispose() {
     _fullNameController.dispose();
@@ -90,7 +94,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
                 ),
                 const SizedBox(height: 4),
                 const Text(
-                  'Solo correos @epn.edu.ec',
+                  'Regístrate con tu correo',
                   style: AppTextStyles.bodySmall,
                 ),
                 const SizedBox(height: 32),
@@ -116,8 +120,8 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
                   ),
                   validator: (v) {
                     if (v == null || v.trim().isEmpty) return 'Campo requerido';
-                    if (!v.trim().endsWith(AppStrings.universityEmailDomain)) {
-                      return AppStrings.errorEmailInvalid;
+                    if (!_emailRegex.hasMatch(v.trim())) {
+                      return 'Correo inválido';
                     }
                     return null;
                   },

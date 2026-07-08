@@ -25,7 +25,7 @@ class SosRemoteDatasource {
           })
           .select()
           .single();
-      return SosAlertModel.fromJson(response as Map<String, dynamic>);
+      return SosAlertModel.fromJson(response);
     } catch (e) {
       throw ServerException(e.toString());
     }

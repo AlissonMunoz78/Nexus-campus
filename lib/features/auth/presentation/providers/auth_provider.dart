@@ -4,10 +4,6 @@ import '../../data/datasources/auth_remote_datasource.dart';
 import '../../data/repositories/auth_repository_impl.dart';
 import '../../domain/entities/auth_user.dart';
 import '../../domain/repositories/auth_repository.dart';
-import '../../domain/usecases/sign_in_usecase.dart';
-import '../../domain/usecases/sign_up_usecase.dart';
-import '../../domain/usecases/sign_out_usecase.dart';
-import '../../domain/usecases/reset_password_usecase.dart';
 
 /// Datasource provider for auth remote datasource.
 final authRemoteDatasourceProvider = Provider<AuthRemoteDatasource>((ref) => AuthRemoteDatasource());
@@ -15,7 +11,7 @@ final authRemoteDatasourceProvider = Provider<AuthRemoteDatasource>((ref) => Aut
 /// Repository provider for auth.
 final authRepositoryProvider = Provider<AuthRepository>((ref) => AuthRepositoryImpl(remote: ref.read(authRemoteDatasourceProvider)));
 
-/// StateNotifier that manages authentication actions and exposes AsyncValue<AuthUser?>
+/// StateNotifier that manages authentication actions and exposes `AsyncValue<AuthUser?>`
 class AuthNotifier extends StateNotifier<AsyncValue<AuthUser?>> {
   final Ref ref;
 

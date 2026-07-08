@@ -21,7 +21,7 @@ SUPABASE_ANON_KEY=
 📄 ARCHIVO: .flutter-plugins-dependencies
 ================================================
 
-{"info":"This is a generated file; do not edit or check into version control.","plugins":{"ios":[{"name":"app_links","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_apple","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_apple-2.3.14\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_ios","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_ios-0.8.13+6\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"path_provider_foundation","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_foundation-2.6.0\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_foundation","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_foundation-2.5.6\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"sqflite_darwin","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\sqflite_darwin-2.4.2\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"url_launcher_ios","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_ios-6.4.1\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"android":[{"name":"app_links","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"flutter_plugin_android_lifecycle","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\flutter_plugin_android_lifecycle-2.0.35\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_android","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_android-4.6.2\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_android","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_android-0.8.13+17\\\\","native_build":true,"dependencies":["flutter_plugin_android_lifecycle"],"dev_dependency":false},{"name":"jni","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni-1.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"jni_flutter","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni_flutter-1.0.1\\\\","native_build":true,"dependencies":["jni"],"dev_dependency":false},{"name":"path_provider_android","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_android-2.3.1\\\\","native_build":false,"dependencies":["jni","jni_flutter"],"dev_dependency":false},{"name":"shared_preferences_android","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_android-2.4.23\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"sqflite_android","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\sqflite_android-2.4.2+3\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"url_launcher_android","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_android-6.3.30\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"macos":[{"name":"app_links","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"file_selector_macos","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\file_selector_macos-0.9.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_apple","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_apple-2.3.14\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_macos","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_macos-0.2.2+1\\\\","native_build":false,"dependencies":["file_selector_macos"],"dev_dependency":false},{"name":"path_provider_foundation","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_foundation-2.6.0\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_foundation","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_foundation-2.5.6\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"sqflite_darwin","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\sqflite_darwin-2.4.2\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"url_launcher_macos","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_macos-3.2.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"linux":[{"name":"app_links_linux","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links_linux-1.0.3\\\\","native_build":false,"dependencies":["gtk"],"dev_dependency":false},{"name":"file_selector_linux","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\file_selector_linux-0.9.4\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"gtk","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\gtk-2.2.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_linux","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_linux-0.2.2\\\\","native_build":false,"dependencies":["file_selector_linux"],"dev_dependency":false},{"name":"jni","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni-1.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"path_provider_linux","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_linux-2.2.2\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_linux","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_linux-2.4.1\\\\","native_build":false,"dependencies":["path_provider_linux"],"dev_dependency":false},{"name":"url_launcher_linux","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_linux-3.2.2\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"windows":[{"name":"app_links","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"file_selector_windows","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\file_selector_windows-0.9.3+5\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_windows","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_windows-0.2.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_windows","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_windows-0.2.2\\\\","native_build":false,"dependencies":["file_selector_windows"],"dev_dependency":false},{"name":"jni","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni-1.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"path_provider_windows","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_windows-2.3.0\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_windows","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_windows-2.4.1\\\\","native_build":false,"dependencies":["path_provider_windows"],"dev_dependency":false},{"name":"url_launcher_windows","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_windows-3.1.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"web":[{"name":"app_links_web","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links_web-1.0.4\\\\","dependencies":[],"dev_dependency":false},{"name":"geolocator_web","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_web-3.0.0\\\\","dependencies":[],"dev_dependency":false},{"name":"image_picker_for_web","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_for_web-3.1.1\\\\","dependencies":[],"dev_dependency":false},{"name":"shared_preferences_web","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_web-2.4.3\\\\","dependencies":[],"dev_dependency":false},{"name":"url_launcher_web","path":"C:\\\\Users\\\\HP\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_web-2.4.3\\\\","dependencies":[],"dev_dependency":false}]},"dependencyGraph":[{"name":"app_links","dependencies":["app_links_linux","app_links_web"]},{"name":"app_links_linux","dependencies":["gtk"]},{"name":"app_links_web","dependencies":[]},{"name":"file_selector_linux","dependencies":[]},{"name":"file_selector_macos","dependencies":[]},{"name":"file_selector_windows","dependencies":[]},{"name":"flutter_plugin_android_lifecycle","dependencies":[]},{"name":"geolocator","dependencies":["geolocator_android","geolocator_apple","geolocator_web","geolocator_windows"]},{"name":"geolocator_android","dependencies":[]},{"name":"geolocator_apple","dependencies":[]},{"name":"geolocator_web","dependencies":[]},{"name":"geolocator_windows","dependencies":[]},{"name":"gtk","dependencies":[]},{"name":"image_picker","dependencies":["image_picker_android","image_picker_for_web","image_picker_ios","image_picker_linux","image_picker_macos","image_picker_windows"]},{"name":"image_picker_android","dependencies":["flutter_plugin_android_lifecycle"]},{"name":"image_picker_for_web","dependencies":[]},{"name":"image_picker_ios","dependencies":[]},{"name":"image_picker_linux","dependencies":["file_selector_linux"]},{"name":"image_picker_macos","dependencies":["file_selector_macos"]},{"name":"image_picker_windows","dependencies":["file_selector_windows"]},{"name":"jni","dependencies":[]},{"name":"jni_flutter","dependencies":["jni"]},{"name":"path_provider","dependencies":["path_provider_android","path_provider_foundation","path_provider_linux","path_provider_windows"]},{"name":"path_provider_android","dependencies":["jni","jni_flutter"]},{"name":"path_provider_foundation","dependencies":[]},{"name":"path_provider_linux","dependencies":[]},{"name":"path_provider_windows","dependencies":[]},{"name":"shared_preferences","dependencies":["shared_preferences_android","shared_preferences_foundation","shared_preferences_linux","shared_preferences_web","shared_preferences_windows"]},{"name":"shared_preferences_android","dependencies":[]},{"name":"shared_preferences_foundation","dependencies":[]},{"name":"shared_preferences_linux","dependencies":["path_provider_linux"]},{"name":"shared_preferences_web","dependencies":[]},{"name":"shared_preferences_windows","dependencies":["path_provider_windows"]},{"name":"sqflite","dependencies":["sqflite_android","sqflite_darwin"]},{"name":"sqflite_android","dependencies":[]},{"name":"sqflite_darwin","dependencies":[]},{"name":"url_launcher","dependencies":["url_launcher_android","url_launcher_ios","url_launcher_linux","url_launcher_macos","url_launcher_web","url_launcher_windows"]},{"name":"url_launcher_android","dependencies":[]},{"name":"url_launcher_ios","dependencies":[]},{"name":"url_launcher_linux","dependencies":[]},{"name":"url_launcher_macos","dependencies":[]},{"name":"url_launcher_web","dependencies":[]},{"name":"url_launcher_windows","dependencies":[]}],"date_created":"2026-07-05 18:01:40.372960","version":"3.41.9","swift_package_manager_enabled":{"ios":false,"macos":false}}
+{"info":"This is a generated file; do not edit or check into version control.","plugins":{"ios":[{"name":"app_links","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.2.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_apple","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_apple-2.3.14\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_ios","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_ios-0.8.13+6\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"path_provider_foundation","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_foundation-2.6.0\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_foundation","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_foundation-2.5.6\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"sqflite_darwin","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\sqflite_darwin-2.4.3+1\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"url_launcher_ios","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_ios-6.4.1\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"android":[{"name":"app_links","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.2.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"flutter_plugin_android_lifecycle","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\flutter_plugin_android_lifecycle-2.0.35\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_android","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_android-4.6.2\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_android","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_android-0.8.13+19\\\\","native_build":true,"dependencies":["flutter_plugin_android_lifecycle"],"dev_dependency":false},{"name":"jni","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni-1.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"jni_flutter","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni_flutter-1.0.1\\\\","native_build":true,"dependencies":["jni"],"dev_dependency":false},{"name":"path_provider_android","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_android-2.3.1\\\\","native_build":false,"dependencies":["jni","jni_flutter"],"dev_dependency":false},{"name":"shared_preferences_android","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_android-2.4.26\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"sqflite_android","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\sqflite_android-2.4.3\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"url_launcher_android","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_android-6.3.32\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"macos":[{"name":"app_links","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.2.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"file_selector_macos","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\file_selector_macos-0.9.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_apple","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_apple-2.3.14\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_macos","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_macos-0.2.2+1\\\\","native_build":false,"dependencies":["file_selector_macos"],"dev_dependency":false},{"name":"path_provider_foundation","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_foundation-2.6.0\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_foundation","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_foundation-2.5.6\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"sqflite_darwin","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\sqflite_darwin-2.4.3+1\\\\","shared_darwin_source":true,"native_build":true,"dependencies":[],"dev_dependency":false},{"name":"url_launcher_macos","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_macos-3.2.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"linux":[{"name":"app_links_linux","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links_linux-1.0.3\\\\","native_build":false,"dependencies":["gtk"],"dev_dependency":false},{"name":"file_selector_linux","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\file_selector_linux-0.9.4\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"gtk","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\gtk-2.2.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_linux","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_linux-0.2.2\\\\","native_build":false,"dependencies":["file_selector_linux"],"dev_dependency":false},{"name":"jni","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni-1.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"path_provider_linux","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_linux-2.2.2\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_linux","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_linux-2.4.1\\\\","native_build":false,"dependencies":["path_provider_linux"],"dev_dependency":false},{"name":"url_launcher_linux","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_linux-3.2.2\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"windows":[{"name":"app_links","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links-7.2.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"file_selector_windows","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\file_selector_windows-0.9.3+5\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"geolocator_windows","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_windows-0.2.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"image_picker_windows","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_windows-0.2.2\\\\","native_build":false,"dependencies":["file_selector_windows"],"dev_dependency":false},{"name":"jni","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\jni-1.0.0\\\\","native_build":true,"dependencies":[],"dev_dependency":false},{"name":"path_provider_windows","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\path_provider_windows-2.3.0\\\\","native_build":false,"dependencies":[],"dev_dependency":false},{"name":"shared_preferences_windows","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_windows-2.4.1\\\\","native_build":false,"dependencies":["path_provider_windows"],"dev_dependency":false},{"name":"url_launcher_windows","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_windows-3.1.5\\\\","native_build":true,"dependencies":[],"dev_dependency":false}],"web":[{"name":"app_links_web","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\app_links_web-1.0.4\\\\","dependencies":[],"dev_dependency":false},{"name":"geolocator_web","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\geolocator_web-3.0.0\\\\","dependencies":[],"dev_dependency":false},{"name":"image_picker_for_web","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\image_picker_for_web-3.1.1\\\\","dependencies":[],"dev_dependency":false},{"name":"shared_preferences_web","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\shared_preferences_web-2.4.3\\\\","dependencies":[],"dev_dependency":false},{"name":"url_launcher_web","path":"C:\\\\Users\\\\Zulay\\\\AppData\\\\Local\\\\Pub\\\\Cache\\\\hosted\\\\pub.dev\\\\url_launcher_web-2.4.3\\\\","dependencies":[],"dev_dependency":false}]},"dependencyGraph":[{"name":"app_links","dependencies":["app_links_linux","app_links_web"]},{"name":"app_links_linux","dependencies":["gtk"]},{"name":"app_links_web","dependencies":[]},{"name":"file_selector_linux","dependencies":[]},{"name":"file_selector_macos","dependencies":[]},{"name":"file_selector_windows","dependencies":[]},{"name":"flutter_plugin_android_lifecycle","dependencies":[]},{"name":"geolocator","dependencies":["geolocator_android","geolocator_apple","geolocator_web","geolocator_windows"]},{"name":"geolocator_android","dependencies":[]},{"name":"geolocator_apple","dependencies":[]},{"name":"geolocator_web","dependencies":[]},{"name":"geolocator_windows","dependencies":[]},{"name":"gtk","dependencies":[]},{"name":"image_picker","dependencies":["image_picker_android","image_picker_for_web","image_picker_ios","image_picker_linux","image_picker_macos","image_picker_windows"]},{"name":"image_picker_android","dependencies":["flutter_plugin_android_lifecycle"]},{"name":"image_picker_for_web","dependencies":[]},{"name":"image_picker_ios","dependencies":[]},{"name":"image_picker_linux","dependencies":["file_selector_linux"]},{"name":"image_picker_macos","dependencies":["file_selector_macos"]},{"name":"image_picker_windows","dependencies":["file_selector_windows"]},{"name":"jni","dependencies":[]},{"name":"jni_flutter","dependencies":["jni"]},{"name":"path_provider","dependencies":["path_provider_android","path_provider_foundation","path_provider_linux","path_provider_windows"]},{"name":"path_provider_android","dependencies":["jni","jni_flutter"]},{"name":"path_provider_foundation","dependencies":[]},{"name":"path_provider_linux","dependencies":[]},{"name":"path_provider_windows","dependencies":[]},{"name":"shared_preferences","dependencies":["shared_preferences_android","shared_preferences_foundation","shared_preferences_linux","shared_preferences_web","shared_preferences_windows"]},{"name":"shared_preferences_android","dependencies":[]},{"name":"shared_preferences_foundation","dependencies":[]},{"name":"shared_preferences_linux","dependencies":["path_provider_linux"]},{"name":"shared_preferences_web","dependencies":[]},{"name":"shared_preferences_windows","dependencies":["path_provider_windows"]},{"name":"sqflite","dependencies":["sqflite_android","sqflite_darwin"]},{"name":"sqflite_android","dependencies":[]},{"name":"sqflite_darwin","dependencies":[]},{"name":"url_launcher","dependencies":["url_launcher_android","url_launcher_ios","url_launcher_linux","url_launcher_macos","url_launcher_web","url_launcher_windows"]},{"name":"url_launcher_android","dependencies":[]},{"name":"url_launcher_ios","dependencies":[]},{"name":"url_launcher_linux","dependencies":[]},{"name":"url_launcher_macos","dependencies":[]},{"name":"url_launcher_web","dependencies":[]},{"name":"url_launcher_windows","dependencies":[]}],"date_created":"2026-07-06 21:11:33.561361","version":"3.44.2","swift_package_manager_enabled":{"ios":false,"macos":false}}
 
 ================================================
 📄 ARCHIVO: .gitignore
@@ -209,199 +209,6 @@ key.properties
 
 
 ================================================
-📄 ARCHIVO: assets\prototipo\stitch_nexus_campus_mobility_network\coastal_wave\DESIGN.md
-================================================
-
----
-name: Coastal Wave
-colors:
-  surface: '#f7f9ff'
-  surface-dim: '#c9dcf2'
-  surface-bright: '#f7f9ff'
-  surface-container-lowest: '#ffffff'
-  surface-container-low: '#edf4ff'
-  surface-container: '#e3efff'
-  surface-container-high: '#d8eaff'
-  surface-container-highest: '#d2e4fb'
-  on-surface: '#0a1d2d'
-  on-surface-variant: '#40474f'
-  inverse-surface: '#203243'
-  inverse-on-surface: '#e8f2ff'
-  outline: '#717880'
-  outline-variant: '#c0c7d0'
-  surface-tint: '#006398'
-  primary: '#005684'
-  on-primary: '#ffffff'
-  primary-container: '#1d6fa4'
-  on-primary-container: '#dcedff'
-  inverse-primary: '#93ccff'
-  secondary: '#006a62'
-  on-secondary: '#ffffff'
-  secondary-container: '#70f8e8'
-  on-secondary-container: '#007168'
-  tertiary: '#075b5a'
-  on-tertiary: '#ffffff'
-  tertiary-container: '#2d7472'
-  on-tertiary-container: '#b2f7f4'
-  error: '#ba1a1a'
-  on-error: '#ffffff'
-  error-container: '#ffdad6'
-  on-error-container: '#93000a'
-  primary-fixed: '#cde5ff'
-  primary-fixed-dim: '#93ccff'
-  on-primary-fixed: '#001d31'
-  on-primary-fixed-variant: '#004b74'
-  secondary-fixed: '#70f8e8'
-  secondary-fixed-dim: '#4fdbcc'
-  on-secondary-fixed: '#00201d'
-  on-secondary-fixed-variant: '#005049'
-  tertiary-fixed: '#aaefec'
-  tertiary-fixed-dim: '#8ed3d0'
-  on-tertiary-fixed: '#00201f'
-  on-tertiary-fixed-variant: '#00504e'
-  background: '#f7f9ff'
-  on-background: '#0a1d2d'
-  surface-variant: '#d2e4fb'
-  background-aqua: '#F0FFFE'
-  text-secondary: '#4A7A85'
-  surface-white: '#FFFFFF'
-  brand-gradient: 'linear-gradient(135deg, #1D6FA4, #2EC4B6, #A8EDEA)'
-typography:
-  display-lg:
-    fontFamily: Hanken Grotesk
-    fontSize: 48px
-    fontWeight: '800'
-    lineHeight: 56px
-    letterSpacing: -0.02em
-  headline-lg:
-    fontFamily: Hanken Grotesk
-    fontSize: 32px
-    fontWeight: '700'
-    lineHeight: 40px
-    letterSpacing: -0.01em
-  headline-lg-mobile:
-    fontFamily: Hanken Grotesk
-    fontSize: 24px
-    fontWeight: '700'
-    lineHeight: 32px
-  headline-md:
-    fontFamily: Hanken Grotesk
-    fontSize: 20px
-    fontWeight: '600'
-    lineHeight: 28px
-  body-lg:
-    fontFamily: Hanken Grotesk
-    fontSize: 18px
-    fontWeight: '400'
-    lineHeight: 28px
-  body-md:
-    fontFamily: Hanken Grotesk
-    fontSize: 16px
-    fontWeight: '400'
-    lineHeight: 24px
-  label-md:
-    fontFamily: Hanken Grotesk
-    fontSize: 14px
-    fontWeight: '600'
-    lineHeight: 20px
-    letterSpacing: 0.05em
-  label-sm:
-    fontFamily: Hanken Grotesk
-    fontSize: 12px
-    fontWeight: '500'
-    lineHeight: 16px
-rounded:
-  sm: 0.25rem
-  DEFAULT: 0.5rem
-  md: 0.75rem
-  lg: 1rem
-  xl: 1.5rem
-  full: 9999px
-spacing:
-  base: 4px
-  xs: 8px
-  sm: 16px
-  md: 24px
-  lg: 40px
-  xl: 64px
-  gutter: 20px
-  margin-mobile: 16px
-  margin-desktop: 48px
----
-
-## Brand & Style
-
-This design system embodies a "Modern Premium" aesthetic characterized by a refreshing, coastal-inspired palette and a focus on clarity and openness. The brand personality is professional yet approachable, utilizing a "Clean and Bold" philosophy that prioritizes high readability and rhythmic spacing.
-
-The visual style leans into **Minimalism** with a **Tactile** twist—relying on depth and soft shadows rather than hard strokes to define structure. Key interactions are highlighted with a distinctive multi-stop gradient that suggests motion and energy. The target audience values efficiency and a premium feel, expecting a UI that feels lightweight, airy, and high-end.
-
-## Colors
-
-The palette is anchored by a deep oceanic blue (`#1D6FA4`) and a vibrant teal (`#2EC4B6`). The background uses a subtle aqua tint (`#F0FFFE`) to reduce eye strain and differentiate from standard white-label applications. 
-
-A primary gradient is used sparingly but impactfully on headers, active navigation elements, and primary status cards to create a "wave" of visual interest. Text contrast is strictly maintained with a near-black navy for primary legibility and a muted slate-teal for secondary metadata. Verified badges and active iconography utilize the secondary teal to signify trust and selection.
-
-## Typography
-
-This design system utilizes **Hanken Grotesk** across all roles to ensure a sharp, contemporary, and highly legible appearance. The type hierarchy is intentionally "Bold and Large," specifically for key data points and statistical summaries to ensure rapid information processing.
-
-- **Display & Headlines:** Use tight letter-spacing and heavy weights (700-800) to command attention.
-- **Body Text:** Maintains a generous line height for maximum readability on the aqua-tinted background.
-- **Bilingual Support:** Ensure that Spanish labels (e.g., "Verificado" vs "Verified") are accounted for in button widths, as Spanish strings are often 20-30% longer than English equivalents.
-
-## Layout & Spacing
-
-The layout follows a **Fluid Grid** model with a focus on wide gutters to maintain the "airy" brand feel. 
-- **Desktop:** A 12-column grid with 48px side margins.
-- **Mobile:** A 4-column grid with 16px side margins.
-
-A 4px baseline shift is used for all internal component spacing (padding/margins). Containers should use "Safe Area" padding to ensure content never feels cramped against the edges of the soft-shadowed cards.
-
-## Elevation & Depth
-
-This design system explicitly forbids the use of hard borders for structural containment. Depth is achieved through **Ambient Shadows** and **Tonal Layers**.
-
-- **Surface Level 0:** The `#F0FFFE` background.
-- **Surface Level 1 (Cards):** `#FFFFFF` surfaces with a signature soft shadow: `0px 2px 12px rgba(13, 111, 148, 0.08)`. This blue-tinted shadow reinforces the coastal theme.
-- **Surface Level 2 (Interactive):** When hovering over a card, the shadow should slightly expand and deepen (`0px 8px 24px rgba(13, 111, 148, 0.12)`) to indicate interactivity.
-
-Headers and primary navigation elements may use the primary gradient to sit visually "above" the content.
-
-## Shapes
-
-The shape language is "Softly Geometric." While the base roundedness is 8px (`rounded-md`), specific components utilize higher values to evoke a more modern, friendly feel:
-- **Cards:** 20px radius to emphasize the "soft container" look.
-- **Buttons:** 14px radius for a distinct, pill-adjacent appearance.
-- **Inputs:** 12px radius.
-- **Avatars:** Strictly 50% (Circular) to frame real user photos cleanly.
-
-## Components
-
-### Buttons
-- **Primary CTA:** Solid `#1D6FA4`, 50px height, 14px radius. Typography should be `label-md` in white.
-- **Secondary:** Transparent background with `#1D6FA4` text, no border.
-
-### Cards
-- Always white (`#FFFFFF`) with 20px radius and the signature soft aqua shadow. 
-- No borders. 
-- Padding should be at least `md` (24px) to ensure content breathes.
-
-### Input Fields
-- White background, 12px radius, and a subtle 1px border using `#4A7A85` at 20% opacity. 
-- On focus, the border shifts to the primary `#1D6FA4`.
-
-### Avatars
-- Must use real user photos.
-- Always circular with a 2px white "halo" if placed over the primary gradient.
-
-### Chips & Badges
-- **Verified Badge:** Teal (`#2EC4B6`) with a white checkmark icon.
-- **Active Nav Pill:** Uses the Primary Gradient with white text.
-
-### Stat Cards
-- These should feature the **Primary Gradient** as a background with `headline-lg` typography in white for the primary metric to ensure "Bold and Large" data visibility.
-
-================================================
 📄 ARCHIVO: ios\.gitignore
 ================================================
 
@@ -453,8 +260,9 @@ Runner/GeneratedPluginRegistrant.*
 ================================================
 
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=C:\Universidad\2026\Moviles\flutter_windows_3.41.9-stable\flutter
-FLUTTER_APPLICATION_PATH=C:\Universidad\2026\Moviles\ProyectFlutter\nexus_campus
+FLUTTER_ROOT=C:\Users\Zulay\Downloads\flutter_windows_3.44.2-stable\flutter
+FLUTTER_APPLICATION_PATH=C:\Users\Zulay\Downloads\Nexus-campus
+FLUTTER_FRAMEWORK_SWIFT_PACKAGE_PATH=C:\Users\Zulay\Downloads\Nexus-campus\ios\Flutter\ephemeral\Packages\.packages\FlutterFramework
 COCOAPODS_PARALLEL_CODE_SIGN=true
 FLUTTER_TARGET=lib\main.dart
 FLUTTER_BUILD_DIR=build
@@ -791,6 +599,7 @@ class AppStrings {
   static const String routeVehicle = '/vehicle';
   static const String routeVehicleEdit = '/vehicle/edit';
   static const String routeSos = '/sos';
+  static const String routeHome = '/home';
   static const String routeRequests = '/requests';
   static const String routeChat = '/chat';
   static const String login = 'Iniciar sesión';
@@ -1071,6 +880,7 @@ import '../../features/vehicles/presentation/pages/edit_vehicle_page.dart';
 import '../../features/trips/presentation/pages/trips_list_page.dart';
 import '../../features/trips/presentation/pages/create_trip_page.dart';
 import '../../features/trips/presentation/pages/trip_detail_page.dart';
+import '../../features/home/presentation/pages/home_page.dart';
 import '../../features/chat/presentation/pages/chat_page.dart';
 import '../../features/map/presentation/pages/map_page.dart';
 import '../../features/sos/presentation/pages/sos_page.dart';
@@ -1087,7 +897,7 @@ final routerProvider = Provider<GoRouter>((ref) {
       final onAuthRoute = state.matchedLocation.startsWith('/auth');
 
       if (!isAuthenticated && !onAuthRoute) return AppStrings.routeLogin;
-      if (isAuthenticated && onAuthRoute) return AppStrings.routeTrips;
+      if (isAuthenticated && onAuthRoute) return AppStrings.routeHome;
       return null;
     },
     routes: [
@@ -1110,6 +920,10 @@ final routerProvider = Provider<GoRouter>((ref) {
       ShellRoute(
         builder: (context, state, child) => MainShell(child: child),
         routes: [
+          GoRoute(
+            path: AppStrings.routeHome,
+            builder: (context, state) => const HomePage(),
+          ),
           GoRoute(
             path: AppStrings.routeTrips,
             builder: (context, state) => const TripsListPage(),
@@ -1172,8 +986,8 @@ class MainShell extends StatelessWidget {
   const MainShell({required this.child, super.key});
 
   static const _navRoutes = [
+    AppStrings.routeHome,
     AppStrings.routeTrips,
-    AppStrings.routeMap,
     AppStrings.routeSos,
     AppStrings.routeChat,
     AppStrings.routeProfile,
@@ -1203,10 +1017,10 @@ class MainShell extends StatelessWidget {
           type: BottomNavigationBarType.fixed,
           elevation: 0,
           items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.directions_car), label: 'Viajes'),
-            BottomNavigationBarItem(icon: Icon(Icons.map_outlined), label: 'Mapa'),
-            BottomNavigationBarItem(icon: Icon(Icons.emergency_outlined), label: 'SOS'),
-            BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline), label: 'Chat'),
+            BottomNavigationBarItem(icon: Icon(Icons.home_outlined), label: 'Inicio'),
+            BottomNavigationBarItem(icon: Icon(Icons.directions_car_outlined), label: 'Viajes'),
+            BottomNavigationBarItem(icon: Icon(Icons.emergency_outlined), label: 'Auxilio'),
+            BottomNavigationBarItem(icon: Icon(Icons.chat_bubble_outline), label: 'Mensajes'),
             BottomNavigationBarItem(icon: Icon(Icons.person_outline), label: 'Perfil'),
           ],
         ),
@@ -2116,7 +1930,7 @@ class _ForgotPasswordPageState extends ConsumerState<ForgotPasswordPage> {
                       ),
                 const SizedBox(height: 12),
                 TextButton(
-                  onPressed: () => context.pop(),
+                  onPressed: () => context.go(AppStrings.routeLogin),
                   child: Text(
                     'Volver al inicio de sesión',
                     style: AppTextStyles.bodySmall.copyWith(color: AppColors.primary),
@@ -2146,7 +1960,7 @@ import '../../../../core/constants/app_strings.dart';
 import '../../../../core/widgets/custom_button.dart';
 import '../../presentation/providers/auth_provider.dart';
 
-/// Login page with Sky Drift design and form validation.
+/// Login page with Coastal Wave design, form card, and biometric option.
 class LoginPage extends ConsumerStatefulWidget {
   const LoginPage({super.key});
 
@@ -2158,6 +1972,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  bool _rememberMe = false;
 
   @override
   void dispose() {
@@ -2193,7 +2008,9 @@ class _LoginPageState extends ConsumerState<LoginPage> {
     ref.listen(authProvider, (previous, next) {
       if (next is AsyncError) {
         if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(next.error.toString())));
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text(next.error.toString())),
+          );
         }
       } else if (next is AsyncData) {
         if (next.value != null && mounted) {
@@ -2203,7 +2020,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
     });
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: AppColors.background,
       body: SafeArea(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24),
@@ -2211,92 +2028,193 @@ class _LoginPageState extends ConsumerState<LoginPage> {
             key: _formKey,
             child: Column(
               children: [
-                const SizedBox(height: 60),
+                const SizedBox(height: 40),
                 Container(
                   width: 72,
                   height: 72,
                   decoration: BoxDecoration(
                     gradient: AppColors.primaryGradient,
                     borderRadius: BorderRadius.circular(20),
+                    boxShadow: const [
+                      BoxShadow(
+                        color: Color.fromRGBO(13, 111, 148, 0.08),
+                        blurRadius: 12,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
                   ),
-                  child: const Icon(Icons.school, color: Colors.white, size: 36),
+                  child: const Icon(Icons.route, color: Colors.white, size: 36),
                 ),
                 const SizedBox(height: 16),
-                const Text(
+                Text(
                   AppStrings.appName,
                   style: AppTextStyles.displayLarge,
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 4),
-                const Text(
+                Text(
                   AppStrings.appTagline,
-                  style: AppTextStyles.bodySmall,
+                  style: AppTextStyles.bodyMedium.copyWith(
+                    color: AppColors.textSecondary,
+                  ),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 40),
-                TextFormField(
-                  controller: _emailController,
-                  decoration: _decoration(
-                    prefixIcon: Icons.email_outlined,
-                    labelText: AppStrings.emailLabel,
-                    hintText: AppStrings.emailHint,
+                Container(
+                  padding: const EdgeInsets.all(24),
+                  decoration: BoxDecoration(
+                    color: AppColors.surface,
+                    borderRadius: BorderRadius.circular(20),
+                    boxShadow: const [
+                      BoxShadow(
+                        color: Color.fromRGBO(13, 111, 148, 0.08),
+                        blurRadius: 12,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
                   ),
-                  validator: (v) {
-                    if (v == null || v.isEmpty) return 'Campo requerido';
-                    if (!v.trim().endsWith(AppStrings.universityEmailDomain)) {
-                      return AppStrings.errorEmailInvalid;
-                    }
-                    return null;
-                  },
-                ),
-                const SizedBox(height: 16),
-                TextFormField(
-                  controller: _passwordController,
-                  obscureText: true,
-                  decoration: _decoration(
-                    prefixIcon: Icons.lock_outlined,
-                    labelText: AppStrings.passwordLabel,
-                    hintText: AppStrings.passwordHint,
-                  ),
-                  validator: (v) {
-                    if (v == null || v.length < 6) return AppStrings.errorPasswordShort;
-                    return null;
-                  },
-                ),
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: TextButton(
-                    onPressed: () => context.go(AppStrings.routeForgot),
-                    child: Text(
-                      AppStrings.forgotPassword,
-                      style: AppTextStyles.bodySmall.copyWith(color: AppColors.primary),
-                    ),
+                  child: Column(
+                    children: [
+                      TextFormField(
+                        controller: _emailController,
+                        decoration: _decoration(
+                          prefixIcon: Icons.email_outlined,
+                          labelText: AppStrings.emailLabel,
+                          hintText: AppStrings.emailHint,
+                        ),
+                        validator: (v) {
+                          if (v == null || v.isEmpty) return 'Campo requerido';
+                          if (!v.trim().endsWith(AppStrings.universityEmailDomain)) {
+                            return AppStrings.errorEmailInvalid;
+                          }
+                          return null;
+                        },
+                      ),
+                      const SizedBox(height: 16),
+                      TextFormField(
+                        controller: _passwordController,
+                        obscureText: true,
+                        decoration: _decoration(
+                          prefixIcon: Icons.lock_outlined,
+                          labelText: AppStrings.passwordLabel,
+                          hintText: AppStrings.passwordHint,
+                        ),
+                        validator: (v) {
+                          if (v == null || v.length < 6) return AppStrings.errorPasswordShort;
+                          return null;
+                        },
+                      ),
+                      const SizedBox(height: 12),
+                      Row(
+                        children: [
+                          SizedBox(
+                            height: 24,
+                            width: 24,
+                            child: Checkbox(
+                              value: _rememberMe,
+                              onChanged: (v) => setState(() => _rememberMe = v ?? false),
+                              activeColor: AppColors.primary,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(4),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Text(
+                            'Recordar este dispositivo',
+                            style: AppTextStyles.bodySmall.copyWith(
+                              color: AppColors.textSecondary,
+                            ),
+                          ),
+                          const Spacer(),
+                          TextButton(
+                            onPressed: () => context.go(AppStrings.routeForgot),
+                            style: TextButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              minimumSize: Size.zero,
+                              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                            ),
+                            child: Text(
+                              '¿Olvidaste tu contraseña?',
+                              style: AppTextStyles.bodySmall.copyWith(
+                                color: AppColors.primaryMid,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 24),
+                      CustomButton(
+                        label: AppStrings.login.toUpperCase(),
+                        onPressed: () async {
+                          if (!_formKey.currentState!.validate()) return;
+                          await ref.read(authProvider.notifier).signIn(
+                            _emailController.text.trim(),
+                            _passwordController.text,
+                          );
+                        },
+                      ),
+                      const SizedBox(height: 16),
+                      Row(
+                        children: [
+                          Expanded(child: Divider(color: AppColors.outlineVariant)),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Text(
+                              'O ACCEDE CON',
+                              style: AppTextStyles.bodySmall.copyWith(
+                                color: AppColors.outline,
+                                fontSize: 11,
+                                letterSpacing: 1,
+                              ),
+                            ),
+                          ),
+                          Expanded(child: Divider(color: AppColors.outlineVariant)),
+                        ],
+                      ),
+                      const SizedBox(height: 16),
+                      SizedBox(
+                        width: double.infinity,
+                        height: 50,
+                        child: OutlinedButton.icon(
+                          onPressed: () {},
+                          icon: const Icon(Icons.fingerprint, color: AppColors.primaryMid),
+                          label: Text(
+                            'Inicio de sesión por huella digital',
+                            style: AppTextStyles.labelMedium.copyWith(
+                              color: AppColors.primaryMid,
+                            ),
+                          ),
+                          style: OutlinedButton.styleFrom(
+                            backgroundColor: AppColors.primarySoft,
+                            side: BorderSide.none,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(14),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 const SizedBox(height: 24),
-                CustomButton(
-                  label: AppStrings.login,
-                  onPressed: () async {
-                    if (!_formKey.currentState!.validate()) return;
-                    await ref.read(authProvider.notifier).signIn(
-                      _emailController.text.trim(),
-                      _passwordController.text,
-                    );
-                  },
-                ),
-                const SizedBox(height: 12),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text(
+                    Text(
                       '¿No tienes cuenta? ',
-                      style: AppTextStyles.bodySmall,
+                      style: AppTextStyles.bodySmall.copyWith(
+                        color: AppColors.textSecondary,
+                      ),
                     ),
                     TextButton(
                       onPressed: () => context.go(AppStrings.routeRegister),
                       child: Text(
                         AppStrings.register,
-                        style: AppTextStyles.bodySmall.copyWith(color: AppColors.primary),
+                        style: AppTextStyles.bodySmall.copyWith(
+                          color: AppColors.primary,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ],
@@ -2398,7 +2316,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
               children: [
                 IconButton(
                   icon: const Icon(Icons.arrow_back),
-                  onPressed: () => context.pop(),
+                  onPressed: () => context.go(AppStrings.routeLogin),
                 ),
                 const SizedBox(height: 48),
                 const Text(
@@ -2573,11 +2491,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../../core/constants/app_colors.dart';
+import '../../../../core/constants/app_text_styles.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/providers/supabase_provider.dart';
-import '../../../../core/widgets/loading_widget.dart';
 
-/// Splash page that checks Supabase auth state and redirects accordingly.
+/// Splash page with Coastal Wave branding that checks auth and redirects.
 class SplashPage extends ConsumerWidget {
   const SplashPage({super.key});
 
@@ -2589,11 +2508,7 @@ class SplashPage extends ConsumerWidget {
       data: (state) {
         final isAuthenticated = state.session != null;
         WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (isAuthenticated) {
-            context.go(AppStrings.routeTrips);
-          } else {
-            context.go(AppStrings.routeLogin);
-          }
+          context.go(isAuthenticated ? AppStrings.routeTrips : AppStrings.routeLogin);
         });
       },
       loading: () {},
@@ -2604,9 +2519,48 @@ class SplashPage extends ConsumerWidget {
       },
     );
 
-    return const Scaffold(
+    return Scaffold(
+      backgroundColor: AppColors.background,
       body: Center(
-        child: LoadingWidget(),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 80,
+              height: 80,
+              decoration: BoxDecoration(
+                gradient: AppColors.primaryGradient,
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color.fromRGBO(13, 111, 148, 0.08),
+                    blurRadius: 12,
+                    offset: Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: const Icon(Icons.route, color: Colors.white, size: 40),
+            ),
+            const SizedBox(height: 24),
+            Text(
+              AppStrings.appName,
+              style: AppTextStyles.displayLarge,
+            ),
+            const SizedBox(height: 8),
+            Text(
+              AppStrings.appTagline,
+              style: AppTextStyles.bodyMedium.copyWith(
+                color: AppColors.textSecondary,
+              ),
+            ),
+            const SizedBox(height: 48),
+            const SizedBox(
+              width: 24,
+              height: 24,
+              child: CircularProgressIndicator(strokeWidth: 2.5),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -3226,6 +3180,332 @@ final chatNotifierProvider =
     StateNotifierProvider<ChatNotifier, AsyncValue<void>>((ref) {
   return ChatNotifier(ref);
 });
+
+
+================================================
+📄 ARCHIVO: lib\features\home\presentation\pages\home_page.dart
+================================================
+
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:flutter_map/flutter_map.dart';
+import 'package:latlong2/latlong.dart';
+
+import '../../../../core/constants/app_colors.dart';
+import '../../../../core/constants/app_text_styles.dart';
+import '../../../../core/constants/app_strings.dart';
+import '../../../../core/widgets/loading_widget.dart';
+import '../../../map/presentation/providers/map_provider.dart';
+import '../../../trips/presentation/providers/trip_provider.dart';
+
+/// Main home page with live map, trip search, active trip overlay, and nearby trips.
+class HomePage extends ConsumerWidget {
+  const HomePage({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final locationAsync = ref.watch(currentLocationProvider);
+    final tripsAsync = ref.watch(availableTripsProvider);
+
+    return Scaffold(
+      body: Stack(
+        children: [
+          locationAsync.when(
+            loading: () => const SizedBox(),
+            error: (e, _) => const SizedBox(),
+            data: (location) {
+              final center = LatLng(location.latitude, location.longitude);
+              return SizedBox(
+                height: 397,
+                child: FlutterMap(
+                  options: MapOptions(
+                    initialCenter: center,
+                    initialZoom: 15.0,
+                  ),
+                  children: [
+                    TileLayer(
+                      urlTemplate:
+                          'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                      userAgentPackageName: 'com.nexuscampus.app',
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+          Positioned(
+            top: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+              padding: EdgeInsets.only(
+                top: MediaQuery.of(context).padding.top + 8,
+                left: 16,
+                right: 16,
+              ),
+              decoration: const BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Color(0xFF1D6FA4),
+                    Color(0xFF2EC4B6),
+                    Color(0xFFA8EDEA),
+                  ],
+                ),
+              ),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Text(
+                        AppStrings.appName,
+                        style: AppTextStyles.titleMedium.copyWith(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      const Spacer(),
+                      IconButton(
+                        icon: const Icon(Icons.notifications_outlined,
+                            color: Colors.white),
+                        onPressed: () {},
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  Container(
+                    height: 40,
+                    margin: const EdgeInsets.only(bottom: 12),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: 0.2),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: InkWell(
+                      borderRadius: BorderRadius.circular(20),
+                      onTap: () => context.push(AppStrings.routeTrips),
+                      child: Row(
+                        children: [
+                          const SizedBox(width: 12),
+                          const Icon(Icons.search, color: Colors.white, size: 20),
+                          const SizedBox(width: 8),
+                          Text(
+                            '¿A dónde vamos?',
+                            style: AppTextStyles.labelMedium.copyWith(
+                              color: Colors.white.withValues(alpha: 0.9),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Positioned(
+            top: 140,
+            left: 16,
+            right: 16,
+            child: Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: AppColors.surface,
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color.fromRGBO(13, 111, 148, 0.08),
+                    blurRadius: 12,
+                    offset: Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Viajes cercanos',
+                    style: AppTextStyles.labelMedium.copyWith(
+                      color: AppColors.primaryMid,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  tripsAsync.when(
+                    loading: () => const SizedBox(
+                      height: 20,
+                      child: Center(child: SizedBox(width: 16, height: 16, child: CircularProgressIndicator(strokeWidth: 2))),
+                    ),
+                    error: (e, _) => Text(
+                      'Sin conexión',
+                      style: AppTextStyles.bodySmall.copyWith(color: AppColors.textSecondary),
+                    ),
+                    data: (trips) {
+                      final count = trips.length;
+                      return Row(
+                        children: [
+                          Text(
+                            count.toString(),
+                            style: AppTextStyles.displayLarge.copyWith(
+                              fontSize: 28,
+                              color: AppColors.onBackground,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Text(
+                            count == 1 ? 'viaje disponible' : 'viajes disponibles',
+                            style: AppTextStyles.bodySmall.copyWith(
+                              color: AppColors.textSecondary,
+                            ),
+                          ),
+                        ],
+                      );
+                    },
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Positioned(
+            top: 280,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: tripsAsync.when(
+              loading: () => const LoadingWidget(),
+              error: (e, _) => Center(child: Text(e.toString())),
+              data: (trips) {
+                if (trips.isEmpty) {
+                  return Center(
+                    child: Text(
+                      'No hay viajes disponibles',
+                      style: AppTextStyles.bodyMedium.copyWith(
+                        color: AppColors.textSecondary,
+                      ),
+                    ),
+                  );
+                }
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Viajes disponibles',
+                            style: AppTextStyles.titleMedium,
+                          ),
+                          TextButton(
+                            onPressed: () => context.push(AppStrings.routeTrips),
+                            child: Text(
+                              'Ver todos',
+                              style: AppTextStyles.labelMedium.copyWith(
+                                color: AppColors.primary,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Expanded(
+                      child: ListView.builder(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        itemCount: trips.length > 5 ? 5 : trips.length,
+                        itemBuilder: (context, index) {
+                          final trip = trips[index];
+                          return Container(
+                            margin: const EdgeInsets.only(bottom: 12),
+                            decoration: BoxDecoration(
+                              color: AppColors.surface,
+                              borderRadius: BorderRadius.circular(20),
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Color.fromRGBO(13, 111, 148, 0.08),
+                                  blurRadius: 12,
+                                  offset: Offset(0, 4),
+                                ),
+                              ],
+                            ),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              onTap: () => context.push('/trips/${trip.id}'),
+                              child: Padding(
+                                padding: const EdgeInsets.all(16),
+                                child: Row(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 20,
+                                      backgroundColor: AppColors.primarySoft,
+                                      child: Text(
+                                        trip.driverId.isNotEmpty
+                                            ? trip.driverId[0].toUpperCase()
+                                            : '?',
+                                        style: AppTextStyles.bodyMedium.copyWith(
+                                          color: AppColors.primary,
+                                        ),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 12),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            trip.origin,
+                                            style: AppTextStyles.bodyMedium,
+                                            maxLines: 1,
+                                            overflow: TextOverflow.ellipsis,
+                                          ),
+                                          const SizedBox(height: 2),
+                                          Row(
+                                            children: [
+                                              Icon(Icons.arrow_downward,
+                                                  size: 12, color: AppColors.primaryMid),
+                                              const SizedBox(width: 4),
+                                              Expanded(
+                                                child: Text(
+                                                  trip.destination,
+                                                  style: AppTextStyles.bodySmall.copyWith(
+                                                    color: AppColors.textSecondary,
+                                                  ),
+                                                  maxLines: 1,
+                                                  overflow: TextOverflow.ellipsis,
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    const SizedBox(width: 8),
+                                    Text(
+                                      '\$${trip.pricePerSeat.toStringAsFixed(2)}',
+                                      style: AppTextStyles.labelMedium.copyWith(
+                                        color: AppColors.primary,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  ],
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
 
 
 ================================================
@@ -4047,12 +4327,11 @@ import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_text_styles.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/providers/supabase_provider.dart';
-import '../../../../core/widgets/custom_button.dart';
 import '../../../../core/widgets/async_value_widget.dart';
 import '../../../auth/presentation/providers/auth_provider.dart';
 import '../providers/profile_provider.dart';
 
-/// Profile page displaying user info, avatar, role badge, and actions.
+/// Profile page with Campus Impact card, settings, emergency contacts, and logout.
 class ProfilePage extends ConsumerWidget {
   const ProfilePage({super.key});
 
@@ -4093,127 +4372,379 @@ class ProfilePage extends ConsumerWidget {
                   ],
                 ),
                 Transform.translate(
-                  offset: const Offset(0, -40),
+                  offset: const Offset(0, -50),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 24),
-                    child: Card(
-                      elevation: 0,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                      color: AppColors.surface,
-                      child: Container(
-                        width: double.infinity,
-                        padding: const EdgeInsets.all(20),
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          boxShadow: [
-                            BoxShadow(
-                              color: AppColors.primary.withValues(alpha: 0.1),
-                              blurRadius: 12,
-                              offset: const Offset(0, 4),
-                            ),
-                          ],
-                        ),
-                        child: Column(
+                    child: Column(
+                      children: [
+                        Stack(
                           children: [
                             CircleAvatar(
-                              radius: 36,
+                              radius: 48,
                               backgroundImage: profile.avatarUrl != null
                                   ? CachedNetworkImageProvider(profile.avatarUrl!)
                                   : null,
-                              backgroundColor: AppColors.primarySoft,
+                              backgroundColor: AppColors.surface,
                               child: profile.avatarUrl == null
                                   ? Text(
                                       initials,
-                                      style: AppTextStyles.titleLarge.copyWith(color: AppColors.primary),
+                                      style: AppTextStyles.displayLarge.copyWith(
+                                        color: AppColors.primary,
+                                        fontSize: 36,
+                                      ),
                                     )
                                   : null,
                             ),
-                            const SizedBox(height: 12),
-                            Text(
-                              profile.fullName,
-                              style: AppTextStyles.titleMedium,
-                              textAlign: TextAlign.center,
+                            Positioned(
+                              bottom: 2,
+                              right: 2,
+                              child: Container(
+                                width: 36,
+                                height: 36,
+                                decoration: BoxDecoration(
+                                  color: AppColors.primaryMid,
+                                  shape: BoxShape.circle,
+                                  border: Border.all(color: AppColors.surface, width: 2),
+                                ),
+                                child: const Icon(Icons.camera_alt, color: Colors.white, size: 18),
+                              ),
                             ),
-                            const SizedBox(height: 4),
-                            Text(
-                              profile.email,
-                              style: AppTextStyles.bodySmall,
-                              textAlign: TextAlign.center,
-                            ),
-                            const SizedBox(height: 8),
+                          ],
+                        ),
+                        const SizedBox(height: 12),
+                        Text(
+                          profile.fullName,
+                          style: AppTextStyles.titleMedium,
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          profile.email,
+                          style: AppTextStyles.bodySmall.copyWith(
+                            color: AppColors.textSecondary,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 12),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
                             Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                               decoration: BoxDecoration(
                                 color: AppColors.primarySoft,
                                 borderRadius: BorderRadius.circular(20),
                               ),
-                              child: Text(
-                                roleLabel,
-                                style: AppTextStyles.caption.copyWith(color: AppColors.primary),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  const Icon(Icons.verified, size: 14, color: AppColors.primary),
+                                  const SizedBox(width: 4),
+                                  Text(
+                                    roleLabel,
+                                    style: AppTextStyles.caption.copyWith(
+                                      color: AppColors.primary,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFFFF8E1),
+                                borderRadius: BorderRadius.circular(20),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: const [
+                                  Icon(Icons.star, size: 14, color: Color(0xFFB78103)),
+                                  SizedBox(width: 4),
+                                  Text(
+                                    '4.9',
+                                    style: TextStyle(
+                                      color: Color(0xFFB78103),
+                                      fontSize: 11,
+                                      fontWeight: FontWeight.w600,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ),
                           ],
                         ),
-                      ),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 24),
-                  child: Column(
-                    children: [
-                      const SizedBox(height: 20),
-                      Card(
-                        elevation: 0,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(20),
-                          side: const BorderSide(color: AppColors.outlineVariant),
+                        const SizedBox(height: 24),
+                        Container(
+                          padding: const EdgeInsets.all(20),
+                          decoration: BoxDecoration(
+                            gradient: AppColors.primaryGradient,
+                            borderRadius: BorderRadius.circular(20),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color.fromRGBO(13, 111, 148, 0.08),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                              ),
+                            ],
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Icon(Icons.eco, color: Colors.white.withValues(alpha: 0.9), size: 20),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'IMPACTO AMBIENTAL',
+                                    style: AppTextStyles.bodySmall.copyWith(
+                                      color: Colors.white.withValues(alpha: 0.8),
+                                      letterSpacing: 2,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 16),
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          '42',
+                                          style: AppTextStyles.displayLarge.copyWith(
+                                            color: Colors.white,
+                                            fontSize: 32,
+                                          ),
+                                        ),
+                                        Text(
+                                          'VIAJES COMPARTIDOS',
+                                          style: AppTextStyles.bodySmall.copyWith(
+                                            color: Colors.white.withValues(alpha: 0.8),
+                                            fontSize: 11,
+                                            letterSpacing: 1,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          '12kg',
+                                          style: AppTextStyles.displayLarge.copyWith(
+                                            color: Colors.white,
+                                            fontSize: 32,
+                                          ),
+                                        ),
+                                        Text(
+                                          'CO₂ AHORRADO',
+                                          style: AppTextStyles.bodySmall.copyWith(
+                                            color: Colors.white.withValues(alpha: 0.8),
+                                            fontSize: 11,
+                                            letterSpacing: 1,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
-                        color: AppColors.surface,
-                        child: Column(
+                        const SizedBox(height: 24),
+                        Container(
+                          decoration: BoxDecoration(
+                            color: AppColors.surface,
+                            borderRadius: BorderRadius.circular(20),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color.fromRGBO(13, 111, 148, 0.08),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                              ),
+                            ],
+                          ),
+                          child: Column(
+                            children: [
+                              _SettingsTile(
+                                icon: Icons.person,
+                                title: 'Información Personal',
+                                subtitle: 'Nombre, correo y teléfono',
+                                onTap: () => context.push(AppStrings.routeProfileEdit),
+                              ),
+                              _SettingsTile(
+                                icon: Icons.shield,
+                                title: 'Seguridad',
+                                subtitle: 'Contraseña y biometría',
+                                onTap: () {},
+                              ),
+                              _SettingsTile(
+                                icon: Icons.notifications_active,
+                                title: 'Notificaciones',
+                                subtitle: 'Alertas y sonidos',
+                                onTap: () {},
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 24),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            ListTile(
-                              leading: const Icon(Icons.edit_outlined, color: AppColors.primary),
-                              title: const Text(
-                                'Editar perfil',
-                                style: AppTextStyles.bodyMedium,
-                              ),
-                              trailing: const Icon(Icons.chevron_right, color: AppColors.secondary),
-                              onTap: () => context.push(AppStrings.routeProfileEdit),
+                            Text(
+                              'Contactos de Emergencia',
+                              style: AppTextStyles.titleMedium,
                             ),
-                            if (isDriver)
-                              const Divider(height: 1, color: AppColors.outlineVariant),
-                            if (isDriver)
-                              ListTile(
-                                leading: const Icon(Icons.directions_car, color: AppColors.primary),
-                                title: const Text(
-                                  'Mi vehículo',
-                                  style: AppTextStyles.bodyMedium,
+                            TextButton(
+                              onPressed: () {},
+                              child: Text(
+                                'Agregar',
+                                style: AppTextStyles.labelMedium.copyWith(
+                                  color: AppColors.primary,
                                 ),
-                                trailing: const Icon(Icons.chevron_right, color: AppColors.secondary),
-                                onTap: () => context.push(AppStrings.routeVehicle),
                               ),
+                            ),
                           ],
                         ),
-                      ),
-                      const SizedBox(height: 24),
-                      CustomButton(
-                        label: AppStrings.logout,
-                        isOutlined: true,
-                        onPressed: () async {
-                          await ref.read(authProvider.notifier).signOut();
-                          if (context.mounted) {
-                            context.go(AppStrings.routeLogin);
-                          }
-                        },
-                      ),
-                    ],
+                        const SizedBox(height: 8),
+                        Container(
+                          padding: const EdgeInsets.all(12),
+                          decoration: BoxDecoration(
+                            color: AppColors.surface,
+                            borderRadius: BorderRadius.circular(20),
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Color.fromRGBO(13, 111, 148, 0.08),
+                                blurRadius: 12,
+                                offset: Offset(0, 4),
+                              ),
+                            ],
+                          ),
+                          child: Row(
+                            children: [
+                              CircleAvatar(
+                                radius: 22,
+                                backgroundColor: AppColors.primarySoft,
+                                child: Icon(Icons.person, color: AppColors.primaryMid),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'Aún no tienes contactos',
+                                      style: AppTextStyles.bodyMedium,
+                                    ),
+                                    Text(
+                                      'Agrega contactos de emergencia',
+                                      style: AppTextStyles.bodySmall.copyWith(
+                                        color: AppColors.textSecondary,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 32),
+                        SizedBox(
+                          width: double.infinity,
+                          child: OutlinedButton.icon(
+                            onPressed: () async {
+                              await ref.read(authProvider.notifier).signOut();
+                              if (context.mounted) {
+                                context.go(AppStrings.routeLogin);
+                              }
+                            },
+                            icon: const Icon(Icons.logout, color: AppColors.error),
+                            label: Text(
+                              AppStrings.logout,
+                              style: AppTextStyles.labelMedium.copyWith(
+                                color: AppColors.error,
+                              ),
+                            ),
+                            style: OutlinedButton.styleFrom(
+                              side: const BorderSide(color: AppColors.error, width: 1),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              padding: const EdgeInsets.symmetric(vertical: 16),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 32),
+                      ],
+                    ),
                   ),
                 ),
               ],
             ),
           );
         },
+      ),
+    );
+  }
+}
+
+/// A settings row with icon, title, subtitle, and chevron.
+class _SettingsTile extends StatelessWidget {
+  final IconData icon;
+  final String title;
+  final String subtitle;
+  final VoidCallback? onTap;
+
+  const _SettingsTile({
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+    this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(14),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+        child: Row(
+          children: [
+            Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(
+                color: AppColors.primarySoft,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: AppColors.primaryMid, size: 20),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(title, style: AppTextStyles.bodyMedium),
+                  Text(
+                    subtitle,
+                    style: AppTextStyles.bodySmall.copyWith(
+                      color: AppColors.textSecondary,
+                      fontSize: 12,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const Icon(Icons.chevron_right, color: AppColors.outline),
+          ],
+        ),
       ),
     );
   }

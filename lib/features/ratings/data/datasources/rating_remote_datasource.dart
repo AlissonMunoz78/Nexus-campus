@@ -27,7 +27,7 @@ class RatingRemoteDatasource {
           })
           .select()
           .single();
-      return RatingModel.fromJson(response as Map<String, dynamic>);
+      return RatingModel.fromJson(response);
     } catch (e) {
       throw ServerException(e.toString());
     }

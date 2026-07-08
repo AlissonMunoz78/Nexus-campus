@@ -1,7 +1,6 @@
 import '../../domain/repositories/auth_repository.dart';
 import '../../domain/entities/auth_user.dart';
 import '../datasources/auth_remote_datasource.dart';
-import '../models/auth_user_model.dart';
 
 /// Implementación del repositorio de autenticación que usa el datasource
 /// remoto para realizar las operaciones.

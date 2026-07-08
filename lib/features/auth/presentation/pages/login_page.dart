@@ -22,6 +22,8 @@ class _LoginPageState extends ConsumerState<LoginPage> {
   final _passwordController = TextEditingController();
   bool _rememberMe = false;
 
+  static final RegExp _emailRegex = RegExp(r'^[\w\.\-]+@[\w\-]+\.[\w\.\-]+$');
+
   @override
   void dispose() {
     _emailController.dispose();
@@ -132,8 +134,8 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                         ),
                         validator: (v) {
                           if (v == null || v.isEmpty) return 'Campo requerido';
-                          if (!v.trim().endsWith(AppStrings.universityEmailDomain)) {
-                            return AppStrings.errorEmailInvalid;
+                          if (!_emailRegex.hasMatch(v.trim())) {
+                            return 'Ingresá un correo válido';
                           }
                           return null;
                         },

@@ -36,7 +36,7 @@ class ChatRemoteDatasource {
           })
           .select()
           .single();
-      return MessageModel.fromJson(response as Map<String, dynamic>);
+      return MessageModel.fromJson(response);
     } catch (e) {
       throw ServerException(e.toString());
     }

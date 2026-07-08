@@ -59,7 +59,7 @@ class TripRemoteDatasource {
           })
           .select()
           .single();
-      return TripModel.fromJson(response as Map<String, dynamic>);
+      return TripModel.fromJson(response);
     } catch (e) {
       throw ServerException(e.toString());
     }
@@ -74,7 +74,7 @@ class TripRemoteDatasource {
           .eq('id', tripId)
           .select()
           .single();
-      return TripModel.fromJson(response as Map<String, dynamic>);
+      return TripModel.fromJson(response);
     } catch (e) {
       throw ServerException(e.toString());
     }
