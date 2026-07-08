@@ -68,7 +68,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
         }
       } else if (next is AsyncData) {
         if (next.value != null && mounted) {
-          context.go(AppStrings.routeTrips);
+          context.go(AppStrings.routeHome);
         }
       }
     });

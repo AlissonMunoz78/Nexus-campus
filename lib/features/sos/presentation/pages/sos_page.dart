@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_text_styles.dart';
 import '../../../../core/constants/app_strings.dart';
 import '../../../../core/providers/supabase_provider.dart';
 import '../../../map/presentation/providers/map_provider.dart';
+import '../providers/emergency_contacts_provider.dart';
 import '../providers/sos_provider.dart';
 import '../widgets/sos_button.dart';
 
-/// SOS emergency page with a long-press-activated alert button.
 class SosPage extends ConsumerWidget {
   const SosPage({super.key});
 
@@ -45,6 +46,9 @@ class SosPage extends ConsumerWidget {
                     const SnackBar(content: Text(AppStrings.sosSent)),
                   );
                 }
+                if (context.mounted) {
+                  await _notifyEmergencyContacts(ref, userId, location.latitude, location.longitude);
+                }
               },
             ),
             const SizedBox(height: 20),
@@ -60,5 +64,29 @@ class SosPage extends ConsumerWidget {
         ),
       ),
     );
+  }
+}
+
+Future<void> _notifyEmergencyContacts(
+  WidgetRef ref,
+  String userId,
+  double latitude,
+  double longitude,
+) async {
+  try {
+    final contacts = await ref.read(emergencyContactsRepositoryProvider).getContacts(userId);
+    if (contacts.isEmpty) return;
+
+    final mapsLink = 'https://maps.google.com/maps?q=$latitude,$longitude';
+    final message = '¡Emergencia! Necesito ayuda. Mi ubicación: $mapsLink';
+
+    for (final contact in contacts) {
+      final uri = Uri.parse('sms:${contact.phone}?body=${Uri.encodeFull(message)}');
+      if (await canLaunchUrl(uri)) {
+        await launchUrl(uri);
+      }
+    }
+  } catch (_) {
+    // Si falla la notificación, la alerta ya quedó registrada en sos_alerts
   }
 }

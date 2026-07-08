@@ -9,6 +9,7 @@ import '../../../../core/constants/app_strings.dart';
 import '../../../../core/providers/supabase_provider.dart';
 import '../../../../core/widgets/async_value_widget.dart';
 import '../../../auth/presentation/providers/auth_provider.dart';
+import '../../../sos/presentation/providers/emergency_contacts_provider.dart';
 import '../providers/profile_provider.dart';
 
 /// Profile page with Campus Impact card, settings, emergency contacts, and logout.
@@ -28,6 +29,7 @@ class ProfilePage extends ConsumerWidget {
     }
 
     final profileAsync = ref.watch(profileProvider(userId));
+    final contactsAsync = ref.watch(emergencyContactsProvider(userId));
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -281,7 +283,7 @@ class ProfilePage extends ConsumerWidget {
                               style: AppTextStyles.titleMedium,
                             ),
                             TextButton(
-                              onPressed: () {},
+                              onPressed: () => _showAddContactDialog(context, ref, userId),
                               child: Text(
                                 'Agregar',
                                 style: AppTextStyles.labelMedium.copyWith(
@@ -292,47 +294,107 @@ class ProfilePage extends ConsumerWidget {
                           ],
                         ),
                         const SizedBox(height: 8),
-                        Container(
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            color: AppColors.surface,
-                            borderRadius: BorderRadius.circular(20),
-                            boxShadow: const [
-                              BoxShadow(
-                                color: Color.fromRGBO(13, 111, 148, 0.08),
-                                blurRadius: 12,
-                                offset: Offset(0, 4),
-                              ),
-                            ],
+                        contactsAsync.when(
+                          loading: () => const SizedBox(
+                            height: 60,
+                            child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
                           ),
-                          child: Row(
-                            children: [
-                              CircleAvatar(
-                                radius: 22,
-                                backgroundColor: AppColors.primarySoft,
-                                child: Icon(Icons.person, color: AppColors.primaryMid),
-                              ),
-                              const SizedBox(width: 12),
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      'Aún no tienes contactos',
-                                      style: AppTextStyles.bodyMedium,
+                          error: (e, _) => Padding(
+                            padding: const EdgeInsets.all(12),
+                            child: Text('Error: $e', style: AppTextStyles.bodySmall),
+                          ),
+                          data: (contacts) {
+                            if (contacts.isEmpty) {
+                              return Container(
+                                padding: const EdgeInsets.all(12),
+                                decoration: BoxDecoration(
+                                  color: AppColors.surface,
+                                  borderRadius: BorderRadius.circular(20),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Color.fromRGBO(13, 111, 148, 0.08),
+                                      blurRadius: 12,
+                                      offset: Offset(0, 4),
                                     ),
-                                    Text(
-                                      'Agrega contactos de emergencia',
-                                      style: AppTextStyles.bodySmall.copyWith(
-                                        color: AppColors.textSecondary,
-                                        fontSize: 12,
+                                  ],
+                                ),
+                                child: Row(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 22,
+                                      backgroundColor: AppColors.primarySoft,
+                                      child: Icon(Icons.person, color: AppColors.primaryMid),
+                                    ),
+                                    const SizedBox(width: 12),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            'Aún no tienes contactos',
+                                            style: AppTextStyles.bodyMedium,
+                                          ),
+                                          Text(
+                                            'Agrega contactos de emergencia',
+                                            style: AppTextStyles.bodySmall.copyWith(
+                                              color: AppColors.textSecondary,
+                                              fontSize: 12,
+                                            ),
+                                          ),
+                                        ],
                                       ),
                                     ),
                                   ],
                                 ),
-                              ),
-                            ],
-                          ),
+                              );
+                            }
+                            return Column(
+                              children: contacts.map((contact) => Container(
+                                margin: const EdgeInsets.only(bottom: 8),
+                                padding: const EdgeInsets.all(12),
+                                decoration: BoxDecoration(
+                                  color: AppColors.surface,
+                                  borderRadius: BorderRadius.circular(20),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Color.fromRGBO(13, 111, 148, 0.08),
+                                      blurRadius: 12,
+                                      offset: Offset(0, 4),
+                                    ),
+                                  ],
+                                ),
+                                child: Row(
+                                  children: [
+                                    CircleAvatar(
+                                      radius: 22,
+                                      backgroundColor: AppColors.primarySoft,
+                                      child: Icon(Icons.person, color: AppColors.primaryMid),
+                                    ),
+                                    const SizedBox(width: 12),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(contact.name, style: AppTextStyles.bodyMedium),
+                                          Text(
+                                            contact.phone,
+                                            style: AppTextStyles.bodySmall.copyWith(
+                                              color: AppColors.textSecondary,
+                                              fontSize: 12,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    IconButton(
+                                      icon: Icon(Icons.delete_outline, color: AppColors.error, size: 20),
+                                      onPressed: () => _deleteContact(context, ref, userId, contact.id),
+                                    ),
+                                  ],
+                                ),
+                              )).toList(),
+                            );
+                          },
                         ),
                         const SizedBox(height: 32),
                         SizedBox(
@@ -428,4 +490,63 @@ class _SettingsTile extends StatelessWidget {
       ),
     );
   }
+}
+
+Future<void> _showAddContactDialog(BuildContext context, WidgetRef ref, String userId) async {
+  final nameController = TextEditingController();
+  final phoneController = TextEditingController();
+  final relationshipController = TextEditingController();
+
+  await showDialog(
+    context: context,
+    builder: (ctx) => AlertDialog(
+      title: const Text('Agregar contacto'),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          TextField(
+            controller: nameController,
+            decoration: const InputDecoration(labelText: 'Nombre', hintText: 'Ej: María'),
+          ),
+          const SizedBox(height: 12),
+          TextField(
+            controller: phoneController,
+            decoration: const InputDecoration(labelText: 'Teléfono', hintText: '+593 99 999 9999'),
+            keyboardType: TextInputType.phone,
+          ),
+          const SizedBox(height: 12),
+          TextField(
+            controller: relationshipController,
+            decoration: const InputDecoration(labelText: 'Parentesco (opcional)', hintText: 'Ej: Madre, Hermano'),
+          ),
+        ],
+      ),
+      actions: [
+        TextButton(onPressed: () => Navigator.of(ctx).pop(), child: const Text('Cancelar')),
+        ElevatedButton(
+          onPressed: () async {
+            final name = nameController.text.trim();
+            final phone = phoneController.text.trim();
+            if (name.isEmpty || phone.isEmpty) return;
+            await ref.read(emergencyContactsRepositoryProvider).addContact(
+              userId: userId,
+              name: name,
+              phone: phone,
+              relationship: relationshipController.text.trim().isEmpty
+                  ? null
+                  : relationshipController.text.trim(),
+            );
+            ref.invalidate(emergencyContactsProvider(userId));
+            if (ctx.mounted) Navigator.of(ctx).pop();
+          },
+          child: const Text('Guardar'),
+        ),
+      ],
+    ),
+  );
+}
+
+Future<void> _deleteContact(BuildContext context, WidgetRef ref, String userId, String contactId) async {
+  await ref.read(emergencyContactsRepositoryProvider).deleteContact(contactId);
+  ref.invalidate(emergencyContactsProvider(userId));
 }

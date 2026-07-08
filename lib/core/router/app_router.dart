@@ -20,6 +20,7 @@ import '../../features/trips/presentation/pages/create_trip_page.dart';
 import '../../features/trips/presentation/pages/trip_detail_page.dart';
 import '../../features/home/presentation/pages/home_page.dart';
 import '../../features/chat/presentation/pages/chat_page.dart';
+import '../../features/chat/presentation/pages/chat_list_page.dart';
 import '../../features/map/presentation/pages/map_page.dart';
 import '../../features/sos/presentation/pages/sos_page.dart';
 import 'placeholder_pages.dart';
@@ -79,6 +80,10 @@ final routerProvider = Provider<GoRouter>((ref) {
           GoRoute(
             path: AppStrings.routeRequests,
             builder: (context, state) => const RequestsPlaceholderPage(),
+          ),
+          GoRoute(
+            path: AppStrings.routeChat,
+            builder: (context, state) => const ChatListPage(),
           ),
           GoRoute(
             path: '/chat/:tripId',

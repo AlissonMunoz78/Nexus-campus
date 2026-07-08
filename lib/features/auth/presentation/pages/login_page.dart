@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:local_auth/local_auth.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_text_styles.dart';
@@ -20,7 +22,9 @@ class _LoginPageState extends ConsumerState<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  final _localAuth = LocalAuthentication();
   bool _rememberMe = false;
+  bool _isLoadingBiometric = false;
 
   static final RegExp _emailRegex = RegExp(r'^[\w\.\-]+@[\w\-]+\.[\w\.\-]+$');
 
@@ -29,6 +33,52 @@ class _LoginPageState extends ConsumerState<LoginPage> {
     _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
+  }
+
+  Future<void> _handleBiometricLogin() async {
+    setState(() => _isLoadingBiometric = true);
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final storedEmail = prefs.getString('auth_email');
+      final storedPassword = prefs.getString('auth_password');
+
+      if (storedEmail == null || storedPassword == null) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Primero iniciá sesión con "Recordar este dispositivo".')),
+          );
+        }
+        return;
+      }
+
+      final canCheckBiometrics = await _localAuth.canCheckBiometrics;
+      if (!canCheckBiometrics) {
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Este dispositivo no soporta autenticación biométrica.')),
+          );
+        }
+        return;
+      }
+
+      final authenticated = await _localAuth.authenticate(
+        localizedReason: 'Usá tu huella para iniciar sesión',
+        biometricOnly: true,
+        persistAcrossBackgrounding: true,
+      );
+
+      if (authenticated && mounted) {
+        await ref.read(authProvider.notifier).signIn(storedEmail, storedPassword);
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error biométrico: $e')),
+        );
+      }
+    } finally {
+      if (mounted) setState(() => _isLoadingBiometric = false);
+    }
   }
 
   InputDecoration _decoration({
@@ -64,7 +114,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
         }
       } else if (next is AsyncData) {
         if (next.value != null && mounted) {
-          context.go(AppStrings.routeTrips);
+          context.go(AppStrings.routeHome);
         }
       }
     });
@@ -170,24 +220,30 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                             ),
                           ),
                           const SizedBox(width: 8),
-                          Text(
-                            'Recordar este dispositivo',
-                            style: AppTextStyles.bodySmall.copyWith(
-                              color: AppColors.textSecondary,
+                          Flexible(
+                            child: Text(
+                              'Recordar este dispositivo',
+                              style: AppTextStyles.bodySmall.copyWith(
+                                color: AppColors.textSecondary,
+                              ),
+                              overflow: TextOverflow.ellipsis,
                             ),
                           ),
                           const Spacer(),
-                          TextButton(
-                            onPressed: () => context.go(AppStrings.routeForgot),
-                            style: TextButton.styleFrom(
-                              padding: EdgeInsets.zero,
-                              minimumSize: Size.zero,
-                              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                            ),
-                            child: Text(
-                              '¿Olvidaste tu contraseña?',
-                              style: AppTextStyles.bodySmall.copyWith(
-                                color: AppColors.primaryMid,
+                          Flexible(
+                            child: TextButton(
+                              onPressed: () => context.go(AppStrings.routeForgot),
+                              style: TextButton.styleFrom(
+                                padding: EdgeInsets.zero,
+                                minimumSize: Size.zero,
+                                tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                              ),
+                              child: Text(
+                                '¿Olvidaste tu contraseña?',
+                                style: AppTextStyles.bodySmall.copyWith(
+                                  color: AppColors.primaryMid,
+                                ),
+                                overflow: TextOverflow.ellipsis,
                               ),
                             ),
                           ),
@@ -195,13 +251,18 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                       ),
                       const SizedBox(height: 24),
                       CustomButton(
-                        label: AppStrings.login.toUpperCase(),
+                        label: _isLoadingBiometric ? 'CARGANDO...' : AppStrings.login.toUpperCase(),
                         onPressed: () async {
                           if (!_formKey.currentState!.validate()) return;
                           await ref.read(authProvider.notifier).signIn(
                             _emailController.text.trim(),
                             _passwordController.text,
                           );
+                          if (_rememberMe && mounted) {
+                            final prefs = await SharedPreferences.getInstance();
+                            await prefs.setString('auth_email', _emailController.text.trim());
+                            await prefs.setString('auth_password', _passwordController.text);
+                          }
                         },
                       ),
                       const SizedBox(height: 16),
@@ -227,7 +288,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                         width: double.infinity,
                         height: 50,
                         child: OutlinedButton.icon(
-                          onPressed: () {},
+                          onPressed: _isLoadingBiometric ? null : _handleBiometricLogin,
                           icon: const Icon(Icons.fingerprint, color: AppColors.primaryMid),
                           label: Text(
                             'Inicio de sesión por huella digital',
